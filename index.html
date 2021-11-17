@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Vaccine Project</title>
+        <script src='graphs.js'></script>
+        <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    </head>
+    <body>
+        <div id='bar'></div>
+        <div id='pie'></div>
+        <div id='line_input'>
+            <h3>Fully Vaccinated Rate by Date</h3>
+            <input id='in' style="display: inline-block;">
+            <button id='btn' onclick=sendData() style="display: inline-block;">Plot it</button>
+        </div>
+        <div id='line'></div>
+    </body>
+</html>
